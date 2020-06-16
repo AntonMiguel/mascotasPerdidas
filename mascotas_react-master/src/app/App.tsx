@@ -5,7 +5,7 @@ import Info from "../info/Info"
 import NewPet from "../pets/NewPet"
 import LostPets from "../pets/LostPets"
 import LostPetMessages from "../pets/LostPetMessages"
-import FoundPetInfo from "../pets/FoundPetInfo"
+import SendPetInfo from "../pets/SendPetInfo"
 import Pets from "../pets/Pets"
 import Profile from "../profile/Profile"
 import Login from "../user/Login"
@@ -44,7 +44,7 @@ export default function App() {
               <LoggedInRoute path="/editPet/:id" component={NewPet} />
               <LoggedInRoute path="/lostPets" component={LostPets} />
               <LoggedInRoute path="/lostPetMsg/:id" component={LostPetMessages} />
-              <LoggedInRoute path="/FoundPetInfo/:id" component={FoundPetInfo} />
+              <LoggedInRoute path="/FoundPetInfo/:id" component={SendPetInfo} />
             </td>
           </tr>
         </tbody>

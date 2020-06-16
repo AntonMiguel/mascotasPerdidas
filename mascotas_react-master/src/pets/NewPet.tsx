@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react"
 import { useErrorHandler } from "../common/utils/ErrorHandler"
-import { goHome } from "../common/utils/Tools"
 import "../styles.css"
 import { deletePet, loadPet, newPet, savePet} from "./petsService"
 import DangerLabel from "../common/components/DangerLabel"
